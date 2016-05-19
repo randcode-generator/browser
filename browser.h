@@ -2,6 +2,7 @@
 #define BROWSER
 
 #include <QWebPage>
+#include <QWebView>
 class browserQWebPage : public QWebPage {
 	Q_OBJECT
   public:

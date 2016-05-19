@@ -1,4 +1,3 @@
-#include <QWebView>
 #include <QWebFrame>
 #include <QFileInfo>
 #include <iostream>
@@ -41,8 +40,6 @@ void browser::finishedloading() {
   webView.page()->mainFrame()->evaluateJavaScript(finalStr.c_str());
   exit(0);
 }
-
-#include <browser.moc>
 
 int main(int argc, char **argv) {
 	QApplication app(argc, argv);
