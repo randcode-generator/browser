@@ -1,3 +1,6 @@
+#ifndef BROWSER
+#define BROWSER
+
 #include <QWebPage>
 class browserQWebPage : public QWebPage {
 	Q_OBJECT
@@ -16,3 +19,4 @@ class browser : public QObject {
     public slots:
         void finishedloading();
 };
+#endif
